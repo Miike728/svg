@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <defs>
+    <style>
+      .bg{fill:#000;}
+      .ring{fill:none;stroke:#fff;stroke-width:14;}
+      .thin{fill:none;stroke:#fff;stroke-width:6;}
+      .dot{fill:#fff;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1200" class="bg"/>
+
+  <circle cx="600" cy="600" r="520" class="ring"/>
+  <circle cx="600" cy="600" r="470" class="thin"/>
+  <circle cx="600" cy="600" r="300" class="thin"/>
+
+  <g transform="translate(610 600)">
+    <circle cx="-170" cy="-150" r="56" class="dot"/>
+    <circle cx="-60"  cy="-150" r="56" class="dot"/>
+    <circle cx="50"   cy="-150" r="56" class="dot"/>
+    <circle cx="160"  cy="-150" r="56" class="dot"/>
+
+    <circle cx="-60" cy="-40" r="56" class="dot"/>
+    <circle cx="50"  cy="-40" r="56" class="dot"/>
+
+    <circle cx="-60" cy="60" r="56" class="dot"/>
+    <circle cx="50"  cy="60" r="56" class="dot"/>
+
+    <circle cx="-60" cy="170" r="56" class="dot"/>
+    <circle cx="50"  cy="170" r="56" class="dot"/>
+  </g>
+</svg>
