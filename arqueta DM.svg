@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1400">
+  <defs>
+    <style>
+      .bg{fill:#000;}
+      .outer{fill:#000;stroke:#fff;stroke-width:10;stroke-linejoin:round;}
+      .thin{fill:none;stroke:#fff;stroke-width:4;stroke-linecap:round;stroke-linejoin:round;}
+      .wfill{fill:#fff;}
+      .txt{font-family:Arial,Helvetica,sans-serif;font-weight:800;fill:#fff;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="1400" class="bg"/>
+  <rect x="80" y="80" width="740" height="1240" rx="10" class="outer"/>
+  <rect x="105" y="105" width="690" height="1190" rx="8" class="thin"/>
+
+  <line x1="450" y1="105" x2="450" y2="1295" class="thin"/>
+
+  <g>
+    <rect x="188" y="200" width="180" height="24" rx="12" class="wfill"/>
+    <rect x="220" y="188" width="116" height="48" rx="24" fill="#000"/>
+    <rect x="188" y="1176" width="180" height="24" rx="12" class="wfill"/>
+    <rect x="220" y="1164" width="116" height="48" rx="24" fill="#000"/>
+    <text x="278" y="760" class="txt" font-size="220" text-anchor="middle">D</text>
+  </g>
+
+  <g>
+    <rect x="533" y="200" width="180" height="24" rx="12" class="wfill"/>
+    <rect x="565" y="188" width="116" height="48" rx="24" fill="#000"/>
+    <rect x="533" y="1176" width="180" height="24" rx="12" class="wfill"/>
+    <rect x="565" y="1164" width="116" height="48" rx="24" fill="#000"/>
+    <text x="623" y="760" class="txt" font-size="220" text-anchor="middle">D</text>
+  </g>
+</svg>
