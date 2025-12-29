@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 1200">
+  <defs>
+    <style>
+      .bg{fill:#000;}
+      .ring{fill:none;stroke:#fff;stroke-width:16;}
+      .r{font-family:Arial,Helvetica,sans-serif;font-weight:900;fill:#fff;}
+      .fill{fill:#fff;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="1200" height="1200" class="bg"/>
+
+  <circle cx="600" cy="600" r="520" class="ring"/>
+
+  <text x="600" y="720" class="r" font-size="720" text-anchor="middle">R</text>
+
+  <g transform="translate(600 930)">
+    <rect x="-21" y="-100" width="46" height="190" rx="10" class="fill"/>
+    <rect x="-70" y="-80" width="140" height="56" rx="10" class="fill"/>
+  </g>
+</svg>
