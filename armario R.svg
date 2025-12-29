@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1600">
+  <defs>
+    <style>
+      .bg{fill:#000;}
+      .outer{fill:#000;stroke:#fff;stroke-width:10;stroke-linejoin:round;}
+      .thin{fill:none;stroke:#fff;stroke-width:6;stroke-linecap:round;stroke-linejoin:round;}
+      .fill{fill:#fff;}
+    </style>
+  </defs>
+
+  <rect x="0" y="0" width="900" height="1600" class="bg"/>
+
+  <rect x="50" y="40" width="800" height="1520" rx="18" class="outer"/>
+
+  <rect x="50" y="1240" width="800" height="320" class="thin"/>
+
+  <rect x="140" y="90" width="520" height="1120" rx="12" class="thin"/>
+  <rect x="660" y="90" width="120" height="1120" rx="10" class="thin"/>
+
+  <rect x="620" y="560" width="30" height="160" rx="15" class="fill"/>
+
+  <rect x="240" y="380" width="320" height="150" rx="10" class="thin"/>
+</svg>
